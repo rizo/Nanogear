@@ -1,0 +1,98 @@
+Nanogear: The C++ Web Framework (Reloaded)
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+Authors:    Rizo Isrof <mail@rizo.me>, Ricardo Gonçalves <mail@rigon.me>
+Homepage:   http://odis.pro/nanogear
+Date:       Sat Oct 1 22:10:47 WEST 2011
+-------------------------------------------------------------------------------
+
+ABSTRACT
+
+    This document is about Nanogear web framework and it future development.
+    The existing functionalities are disscussed and the new directions are
+    proposed.
+
+-------------------------------------------------------------------------------
+
+CONTENTS
+
+    1.0 Introduction ··············································· [ng:intro]
+        1.1 Historical Notes ····································· [ng:history]
+        1.2 A C++ Web Framework ·································· [ng:cpp-web]
+        1.3 Requirements ········································· [ng:require]
+        1.4 Licensing ············································ [ng:license]
+        1.5 Technical Background ···································· [ng:tech]
+
+    2.0 Architectural details ······································· [ng:arch]
+        2.1 Application Design ···································· [ng:design]
+        2.2 REST and HTTP ··········································· [ng:rest]
+        2.3 CLI Application ·········································· [ng:cli]
+        2.4 Database Library ·········································· [ng:db]
+        2.5 Template Engine ······································ [ng:tpl-eng]
+        2.6 Client-side Application ··························· [ng:client-app]
+        2.7 Web Widgets ·········································· [ng:widgets]
+
+    3.0 Web Application Deployment ································ [ng:deploy]
+        3.1 HTTP Server Integration ·························· [ng:http-server]
+
+    4.0 Conclusion and Future Perspectives ···················· [ng:conclusion]
+
+-------------------------------------------------------------------------------
+
+
+1.0 Introduction
+
+This chapter describes the environment within which the development of the
+framework will take place. Several important issues, such as the comunnity
+politics, which will define the development process discipline and its
+standards; the potential applications of the framework and the study of the
+users' needs; the libraries that will serve as the basement for the framework
+and any aditional dependencies; an finally the licensing details of the source
+code.
+
+
+1.1 Historical Notes
+
+The development of the Nanogear framework was started by Lorenzo Villani in
+2006. After two years of development he achived a very solid basic functional
+framework. Though the project was stoped in 2008, but in 2011 work was
+continued by ODIS community
+
+
+1.2 A C++ Web Framework
+
+(Describe the goals and the motivation to create the C++ webframework. Talk
+about the clean integration with the existing C++ code (e.g. Qt programs).
+Efficiency and discipline.)
+
+The main motivations is to create an API to serve as a web interface for
+independent server applications.
+
+
+1.3 Requirements
+
+There are several important points that should, _a priori_, hold in the
+development process.
+
+
+1.5 Technical Background
+
+It is of a foundamental importance the choice of the library for the project.
+All the great libraries have their own phylosophies and rules. So using a
+library means obeying to their rules. That's why we try to select a library
+that will perfectly fit with our requirements.
+
+
+===============================================================================
+
+
+CGI Handling:
+ - CGICC
+
+HTTP Improvments:
+ - Use binary encoded requests and responses.
+
+
+Compilation:
+ - Qt -> LLVM -> Javascript
+

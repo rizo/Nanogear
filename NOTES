@@ -1,0 +1,8 @@
+CMake and ports on Mac OS X
+
+CMake needs to respect the DYLD_LIBRARY_PATH environment variable, which is the
+equivalent of the LD_LIBRARY_PATH environment variable on Linux.
+Your DYLD_LIBRARY_PATH needs to have the proper path to find libraries
+installed by MacPorts.
+
+

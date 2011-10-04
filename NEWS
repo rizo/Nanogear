@@ -1,0 +1,16 @@
+2009-04-XX -- Version 0.0.1
+ * Laid down the basics of the REST API
+ * DirectoryResource, a read-only resource providing access to files
+ * Basic internal asynchronous HTTP server which supports:
+   * Main request methods (GET and POST tested)
+   * Query strings (GET request parameters)
+   * POST application/x-www-form-urlencoded form data
+   * Content negotiation
+ * Router class to route requests to other Resource(s) based on URI path
+ * Three ready-to-try examples
+ * A comprehensive documentation
+
+This release was brought you by:
+    Lorenzo Villani
+    Michael Howell
+-------------------------------------------------------------------------------

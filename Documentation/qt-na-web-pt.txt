@@ -1,0 +1,49 @@
+QtGui na Web
+===============================================================================
+
+Autores:    Ricardo Gonçales <mail@rigon.me>, Rizo Isrof <mail@rizo.me>  
+Date:       Mon Oct 3 18:20:53 WEST 2011
+
+---
+
+## OBJECTIVOS ##
+
+    Reunem-se os esforços por parte dos membros da equipa ODIS com o intuito de
+    desenvolver um mecanismo para exportação do módulo gráfico da biblioteca Qt
+    para a Web. Pretende-se explorar as possíveis formas de realização da
+    tarefa proposta, fazer a sua avaliação e, com base nos resultados obtidos,
+    tomar uma decisão para definir a orientação do futuro trabalho nesse
+    sentido.
+
+
+## PLANIFICAÇÃO ##
+
+    Na tentativa de satisfazer o requiremento inicial podem ser tomadas três
+    abordagens diferentes. Cada uma delas será estudada detalhadamente e no
+    final será selecionada aquela cuja especificação mais se assemelhar ao
+    estilo de programação usual nos programas escritos em Qt. Para além disso
+    ter-se-á em conta a elegância e a simplicidade do nosso sistema.
+
+    Enumeram-se seguidamente as três alternativas de implementação:
+
+    -   A primeira consiste numa extensão directa do módulo gráfico existente,
+        com a adição dos métodos auxiliares que transformarão o processo de
+        renderização, orientando-o para obter uma representação compatível com
+        as especificações das modernas tecnologias da Internet.
+
+    -   Por outro lado pode ser implementada uma _Framework_ para Web que
+        conterá um módulo gráfico independente. A definição das estruturas
+        elementares gráficas seria feita de forma análoga ào estilo do Qt.
+
+    -   Uma forma mais imediata e elegante consiste na transformação directa do
+        código de baixo nível gerado pela aplicação gráfica escrita em C++/Qt.
+        Esta metodologia, apesar de ser mais exigente em termos práticos,
+        permitirá uma integração quase perfeita entre a especificação original
+        dos recursos visuais e a sua tradução para o ambiente na Internet.
+
+
+    Embora cada umas das alternativas propostas tem um carácter único e
+    exclusivo, é de salientar que um método unificado poderá surgir em que
+    diversos aspectos técnicos se combinarão para obter uma solução melhor.
+
+
