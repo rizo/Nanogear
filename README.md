@@ -12,3 +12,5 @@ Nanogear is a C++ library enabling developers to write client and server side RE
 - Excellent Documentation and well-commented source file
 
 [1]: http://s8.postimg.org/nhb9dnujp/header.jpg
+
+This library is a fork of Lorenzo Villani's original implementation.
