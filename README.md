@@ -3,7 +3,7 @@ Nanogear
 
 ![image][1]
 
-Nanogear is a C++ library enabling developers to write client and server side RESTful applications. It is built with these principles in mind:
+Nanogear is a C++ library based on Qt enabling developers to write client and server side RESTful applications. It is built with these principles in mind:
 
 - Easy to understand API
 - Cross-platform compatibility
